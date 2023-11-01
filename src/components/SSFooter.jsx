@@ -58,7 +58,7 @@ const SSFooter = () => {
 
       <div className=" mt-[3rem] text-[#2E2E22] px-5">
         <div className="links ">
-          <p className=" font-semibold ">LEMONIZE ALL RIGHTS RESERVED</p>
+          <p>LEMONIZE ALL RIGHTS RESERVED</p>
           <div className="grid grid-cols-1 gap-2">
             <div className="grid grid-cols-3 underline mt-2 text-xs gap-1">
               <a href="/">Privacy Policy</a>

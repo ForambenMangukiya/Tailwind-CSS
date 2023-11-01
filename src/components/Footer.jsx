@@ -66,10 +66,10 @@ const Footer = () => {
         </div>
       </div>
       {/* //large screen */}
-      <div className="bottom md:h-[40rem] bg-[#DDDCD4] hidden md:block ">
-        <div className="md:flex justify-center items-center text-[#2E2E22] py-10 px-10">
-          <div className="right  flex  md:w-[36rem] md:h-[11rem] md:justify-between md:order-2 md:mr-[4rem] md:mt-[12rem] text-sm  gap-12 ">
-            <div className="shop grid grid-5 md:w-[9rem] md:h-[1.25rem] md:gap-2  ">
+      <div className="bottom md:h-[42rem] bg-[#DDDCD4] hidden md:block ">
+        <div className="md:flex justify-center items-center text-[#2E2E22] ">
+          <div className="right  flex  md:w-[36rem] md:h-[11rem] md:justify-between md:order-2 md:mr-[4rem] mt-[12rem] text-sm  gap-12 ">
+            <div className="shop grid grid-5 md:w-[9rem] md:h-[1.25rem] md:gap-2 mt-4">
               <a href="/" className="font-bold text-base ">
                 SHOP
               </a>
@@ -81,7 +81,7 @@ const Footer = () => {
               <a href="/">Chauloe</a>
             </div>
 
-            <div className="about grid grid-6 md:w-[9rem] md:h-[1.25rem] md:gap-2 ">
+            <div className="about grid grid-6 md:w-[9rem] md:h-[1.25rem] md:gap-2 mt-4 ">
               <a href="/" className="font-bold text-base">
                 ABOUT
               </a>
@@ -94,7 +94,7 @@ const Footer = () => {
               <a href="/">Stores</a>
             </div>
 
-            <div className="more grid grid-4 md:w-[9rem] md:h-[1.25rem] md:gap-2 ">
+            <div className="more grid grid-4 md:w-[9rem] md:h-[1.25rem] md:gap-2 mt-4 ">
               <a href="/" className="font-bold text-base">
                 MORE
               </a>
@@ -105,11 +105,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="left md:w-1/2  md:ml-[9rem]  ">
+          <div className="left md:w-1/2  md:ml-[12rem]  mb-[5rem]">
             <img
               src={logo}
               alt="logo"
-              className="logo md:w-14 md:h-16 md:mt-[10rem] mt-[5rem]"
+              className="logo md:w-14 md:h-16 md:mt-[10rem] "
             />
             <p className=" md:h-[2.5rem] md:w-[24rem] md:mt-[1.25rem] mt-[2rem] text-base ">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -118,11 +118,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="hr md:mt-[3rem] md:w-[75rem] md:ml-[9rem]" />
+        <hr className="hr md:mt-[4rem] md:w-[75rem] md:ml-[9rem]" />
 
         <div className="flex   md:ml-[9rem]  md:mt-[3rem] text-[#2E2E22] px-10">
           <div className="links ">
-            <p className=" md:font-semibold ">LEMONIZE ALL RIGHTS RESERVED</p>
+            <p>LEMONIZE ALL RIGHTS RESERVED</p>
             <div className="grid md:grid-cols-2 grid-rows-2 gap-2">
               <div className="grid grid-cols-3 underline  md:text-base text-xs gap-1">
                 <a href="/">Privacy Policy</a>
